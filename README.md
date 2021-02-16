@@ -18,6 +18,7 @@ A transparent floating layer for flutter which can programmatically show and clo
 * [Examples](https://github.com/crazycodeboy/flutter_overlay/tree/master/examples)
 
 ![flutter_overlay](https://raw.githubusercontent.com/crazycodeboy/flutter_overlay/master/screenshot/flutter_overlay.gif)
+![flutter_overlay2](https://raw.githubusercontent.com/crazycodeboy/flutter_overlay/master/screenshot/flutter_overlay2.gif)
 
 
 
