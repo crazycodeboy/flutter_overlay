@@ -1,7 +1,6 @@
 name: flutter_overlay
 description: A transparent floating layer for flutter which can programatically show and close the child. Works on iOS,Android and Web.
 version: 0.0.1
-author: CrazyCodeBoy <crazycodeboy@gmail.com>
 homepage: https://github.com/crazycodeboy/flutter_overlay
 
 environment:
