@@ -4,8 +4,8 @@ import 'package:flutter/widgets.dart';
 
 ///全屏透明浮层
 class HiOverlay {
-  static Future<String> show(BuildContext context,
-      {@required Widget child}) async {
+  static Future<String?> show(BuildContext context,
+      {required Widget child}) async {
     return Navigator.of(context).push(_HiOverlay(child));
   }
 
@@ -37,7 +37,7 @@ class _HiOverlay extends ModalRoute<String> {
 
   ///用于返回给辅助工具(无障碍访问，类似于iOS的VoiceOver)的标签
   @override
-  String get barrierLabel => null;
+  String? get barrierLabel => null;
 
   ///当路由处于非激活状态时是否保存在内存中
   @override
